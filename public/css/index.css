@@ -1,0 +1,101 @@
+.card{
+    margin:0px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.viewProject{
+    margin-top: auto; 
+}
+
+.inline{
+    display: inline;
+}
+
+.card-image{
+    border:1px solid black
+}
+
+/* #allprojects{
+    border:1px solid black;
+    padding: 0% 10% 10% 10%;
+} */
+.cardimage{
+    height: 300px;
+    
+}
+
+.viewlink{
+    text-decoration: none;
+    color:inherit;
+}
+
+#myinfo{
+    background: linear-gradient(to right, blue,rgb(130, 181, 201));
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+#welcomeheading{
+    text-align: center;
+    color: white;
+}
+
+.viewAllProjects{
+    /* margin: 0px auto */
+    text-align: center;
+ }
+
+ /* Card styles */
+ .card{
+    background-color: #fff;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    margin: 12px;
+    border-radius: 5px;
+    box-shadow: 9px 17px 45px -29px
+                rgba(0, 0, 0, 0.44);
+}
+
+/* Card image loading */
+.card__image img {
+    width: 100%;
+    height: 100%;
+}
+  
+.card__image.loading {
+    height: 300px;
+}
+
+/* Card title */
+.card__title {
+    padding: 8px;
+    font-size: 22px;
+    font-weight: 700;
+}
+  
+.card__title.loading {
+    height: 1rem;
+    width: 50%;
+    margin: 1rem;
+    border-radius: 3px;
+}
+
+/* Card description */
+.card__description {
+    padding: 8px;
+    font-size: 16px;
+}
+  
+.card__description.loading {
+    height: 3rem;
+    margin: 1rem;
+    border-radius: 3px;
+}
+
+/* The loading Class */
+.loading {
+    position: relative;
+    background-color: #e2e2e2;
+}
